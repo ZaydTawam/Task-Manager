@@ -1,33 +1,17 @@
 package taskManager;
 
-import java.awt.EventQueue;
-import javax.swing.JFrame;
-import java.awt.Font;
-import javax.swing.JButton;
-import java.awt.Color;
-import java.awt.event.ActionListener;
-import java.awt.event.ActionEvent;
-import javax.swing.JLabel;
-import javax.swing.JScrollPane;
-import javax.swing.JTable;
-import javax.swing.JTextField;
-import javax.swing.table.DefaultTableModel;
-import javax.swing.JComboBox;
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.util.ArrayList;
+import java.awt.*;
+import javax.swing.*;
+import java.io.*;
 import java.util.List;
-import java.time.LocalDate;
-import java.time.Month;
-import java.time.temporal.ChronoUnit;
+import java.util.ArrayList;
+import java.time.*;
 import java.util.stream.Collectors;
+import javax.swing.table.DefaultTableModel;
 import javax.swing.table.DefaultTableCellRenderer;
-import javax.swing.SwingConstants;
+import java.awt.event.*;
+import java.time.temporal.ChronoUnit;
+
 
 
 class Task {
